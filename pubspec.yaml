@@ -1,0 +1,47 @@
+name: current_weather_location
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # https://pub.dev/packages/flutter_launcher_icons
+  flutter_launcher_icons: ^0.9.1
+  # Used for internationalization the app
+  flutter_localizations:
+    sdk: flutter
+  # https://pub.dev/packages/flutter_native_splash
+  flutter_native_splash: ^1.2.1
+  # https://pub.dev/packages/google_ads_widgets
+  google_ads_widgets: ^0.0.2
+  # Used for internation­alized app
+  # https://pub.dev/packages/intl
+  intl: ^0.17.0
+  # https://pub.dev/packages/location
+  location: ^4.3.0
+  # https://pub.dev/packages/open_weather_map_client
+  open_weather_map_client: ^0.1.4
+  # https://pub.dev/packages/permission_handler
+  permission_handler: ^8.1.4+2
+  # https://pub.dev/packages/provider
+  provider: ^5.0.0
+  # https://pub.dev/packages/shared_preferences
+  shared_preferences: ^2.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  # https://pub.dev/packages/lint
+  lint: ^1.5.3
+
+flutter:
+  generate: true
+  uses-material-design: true
+  assets:
+    - assets/images/
