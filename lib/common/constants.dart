@@ -6,7 +6,7 @@ class Ads {
   const Ads();
 
   String get banner {
-    if (Platform.isAndroid) return 'ca-app-pub-3940256099942544/6300978111';
+    if (Platform.isAndroid) return 'ca-app-pub-2503192367716639/6126494577';
     if (Platform.isIOS) return 'ca-app-pub-3940256099942544/2934735716';
     throw 'Unsupported platform';
   }
